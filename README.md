@@ -13,3 +13,14 @@
 - Write the caching rules for static assets
 - Use AI to generate a sample html page + css for Yamnuska Resort
 - Add it to the project in the correct folder based on how you're serving static assets
+
+## Step 3: Serve Data Files & Test Caching
+
+- Generate Data files for ski-conditions and events (.json)
+- store the data files in static
+- import and serve the files instead of the inline written json examples
+- Figure out how to serve your html file for the home route
+- **Help Tip** Check Express documentation and compare:
+  - res.send()
+  - res.sendFile()
+  - res.render()
